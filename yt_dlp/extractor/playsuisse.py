@@ -6,6 +6,7 @@ from ..utils import int_or_none
 
 
 class PlaySuisseIE(InfoExtractor):
+    IE_DESC = 'playsuisse.ch'
     _VALID_URL = r'https?://(?:www\.)?playsuisse\.ch/watch/(?P<id>[0-9]+)'
     _TESTS = [
         {
